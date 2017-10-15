@@ -1,0 +1,91 @@
+@media screen and (max-width: 980px) {
+	#hidden {
+		display: none;
+	}
+
+	#root {
+		width: 350px;
+	}
+}
+
+@media screen and (min-width: 980px) {
+	#user2 {
+		position: fixed;
+		top: 20px;
+		vertical-align: top;
+	}
+
+	#user3 {
+		position: fixed;
+		top: 30px;
+		vertical-align: top;
+	}
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-color: #fff;
+}
+
+#tasks {
+	background-color: #88b398;
+	color: #fff;
+	width: 300px;
+	position: relative;
+	text-align: center;
+	top: 0px;
+	vertical-align: top;
+	height: 300px;
+	margin: 10px;
+}
+
+.user {
+	width: 300px;
+	background-color: #48154e;
+	color: #fff;
+	display: inline-block;
+	margin: 10px;
+	text-align: center;
+	height: 300px;
+}
+
+#user1, #user2, #user3 {
+	position: relative;
+}
+
+#hidden {
+	position: relative;
+	visibility: hidden;
+}
+
+#number {
+	font-size: 50px;
+	color: #fff;
+	text-align: right;
+	position: absolute; 
+	bottom: 0;
+	right: 0;
+	display: inline-block;
+}
+
+p {
+	margin: 0;
+}
+
+.taskList {
+padding-top: 5px;
+}
+
+#userTitle {
+	background-color: #fff;
+	color: #48154e;
+	font-weight: bold;
+}
+
+#tasksTitle {
+	background-color: #fff;
+	color: #88b398;
+	font-weight: bold; 
+}
